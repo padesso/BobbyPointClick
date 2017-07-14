@@ -1,0 +1,64 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiControl(mainScreenGui) {
+   canSaveDynamicFields = "0";
+   isContainer = "1";
+   Profile = "GuiBlackContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   Position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new t2dSceneWindow(sceneWindow2D) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "GuiContentProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 0";
+      Extent = "800 600";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      lockMouse = "0";
+      useWindowMouseEvents = "1";
+      useObjectMouseEvents = "1";
+   };
+   new GuiTextCtrl(GuiMessage) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "ExampleTextProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "8 578";
+      Extent = "784 24";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      maxLength = "1024";
+   };
+   new GuiTextCtrl(GuiTimer) {
+      canSaveDynamicFields = "0";
+      isContainer = "0";
+      Profile = "ExampleTextProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      Position = "755 578";
+      Extent = "45 24";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      tooltipprofile = "GuiDefaultProfile";
+      hovertime = "1000";
+      maxLength = "1024";
+      text = "00:00:00";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,17 @@
+<TorsionProjectOptions>
+<Address>127.0.0.1</Address>
+<Password>password</Password>
+<Port>6060</Port>
+<LastConfig>Release</LastConfig>
+<Breakpoints/>
+<Bookmarks/>
+<OpenFiles>
+<File ScrollX="0" ScrollY="0">game\main.cs</File>
+<File ScrollX="0" ScrollY="0">game\gameScripts\play.cs</File>
+<File ScrollX="0" ScrollY="6">game\gui\mainScreen.gui</File>
+<File ScrollX="0" ScrollY="271">game\data\levels\mainLevel.t2d</File>
+<File ScrollX="0" ScrollY="21" Active="true">game\gameScripts\Timer.cs</File>
+<File ScrollX="0" ScrollY="0">game\gameScripts\Cloud.cs</File>
+<File ScrollX="0" ScrollY="0">game\gameScripts\Audio.cs</File>
+</OpenFiles>
+</TorsionProjectOptions>
